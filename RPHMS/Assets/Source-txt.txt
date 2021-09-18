@@ -1,0 +1,8 @@
+nav margin-left: 51px
+nav-margin-right: 51px
+main-header-center: top: 190px;
+main-content: top: 390px
+black-opacity: 0.7
+nav-font: size: 36px,regular,mont
+header-font-size: 64px, semibold, mont
+content: 35,reg,mont
