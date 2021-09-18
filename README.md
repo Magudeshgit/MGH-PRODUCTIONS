@@ -1,1 +1,1 @@
-# Deveoped By MGH Productions
+# Developed By MGH Productions
