@@ -1,0 +1,150 @@
+@font-face
+{
+	src: url(Assets/Montserrat-Regular.ttf);
+	font-family: mont-reg;
+}
+@font-face
+{
+	src: url(Assets/Montserrat-SemiBold.ttf);
+	font-family: mont-sem;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.parent
+{
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	font-family: mont-reg;
+}
+.parent::before
+{
+	content: ' ';
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	background: url(Assets/med.jpg);
+	background-position: center;
+	background-size: cover;
+	z-index: -2;
+}
+.parent::after
+{
+	
+	content: ' ';
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	background: rgb(17, 17, 17);
+	opacity: 0.8;
+	z-index: -2;
+}
+.header-wrap
+{
+	margin-left: 10px;
+}
+.header
+{
+	font-size: 64px;
+	font-weight: bold;
+}
+.sec-header
+{
+	font-size: 25px;
+}
+.input-console
+{
+	width: 400px;
+	height: 550px;
+	background: #E5E5E5;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.input-area
+{
+	transform: translateY(-90px);
+}
+.console-header
+{
+	color: black;
+	transform: translate(-90px, -130px);
+	font-size: 32px;
+	font-family: mont-sem;
+	text-decoration: underline;
+}
+.num-input
+{
+	border: none;
+	outline: none;
+	width: 300px;
+	height: 35px;
+	border-radius: 5px;
+	text-align: center;
+	color: black;
+	font-size: 24px;
+	padding: 5px;
+}
+.inttxt
+{
+	color: black;
+}
+.int-info
+{
+	color: black;
+	max-width: 300px;
+	font-size: 13px;
+	margin-top: 20px;
+}
+.btn-anch
+{
+    margin-top: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+.btn1
+{
+	border: none;
+	outline: none;
+	color: black;
+	padding: 10px;
+	width: 150px;
+	height: 40px;
+	background: white;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.btn2
+{
+	border: none;
+	outline: none;
+	color: black;
+	padding: 10px;
+	width: 150px;
+	height: 40px;
+	background: white;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 5px;
+}
